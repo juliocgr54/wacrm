@@ -15,7 +15,7 @@
     "createAccount": "Crear cuenta"
   },
   "Sidebar": {
-    "title": "Plantilla CRM para WhatsApp",
+    "title": "RimAI",
     "dashboard": "Panel de control",
     "inbox": "Bandeja de entrada",
     "notifications": "Notificaciones",
@@ -1274,7 +1274,7 @@
       "labelTooLong": "La etiqueta debe tener {max} caracteres o menos",
       "copied": "Enlace de invitación copiado",
       "clipboardBlocked": "Portapapeles bloqueado — copia el enlace manualmente",
-      "whatsappMessage": "Únete a {accountName} en wacrm usando este enlace (válido por {expiresInDays} días): {url}"
+      "whatsappMessage": "Únete a {accountName} en RimAI usando este enlace (válido por {expiresInDays} días): {url}"
     },
     "tagsAndFields": {
       "title": "Campos y etiquetas",
@@ -1394,8 +1394,8 @@
       "submitApproval": "Enviar para aprobación",
       
       "deleteDialogTitle": "¿Eliminar plantilla?",
-      "deleteMetaDesc": "\"{name}\" se eliminará de Meta y de wacrm. Las difusiones activas que usen esta plantilla comenzarán a fallar en su próximo envío. Esto no se puede deshacer.",
-      "deleteLocalDesc": "\"{name}\" se eliminará de wacrm. Nunca se envió a Meta, por lo que no es necesaria una limpieza remota.",
+      "deleteMetaDesc": "\"{name}\" se eliminará de Meta y de RimAI. Las difusiones activas que usen esta plantilla comenzarán a fallar en su próximo envío. Esto no se puede deshacer.",
+      "deleteLocalDesc": "\"{name}\" se eliminará de RimAI. Nunca se envió a Meta, por lo que no es necesaria una limpieza remota.",
       "deleting": "Eliminando…",
       "delete": "Eliminar",
       
@@ -1437,7 +1437,7 @@
       "notConnected": "No conectado",
       "connectedDesc": "Tu token de acceso autentica con Meta. Consulta el estado de Registro a continuación para ver si los webhooks están realmente conectados.",
       "notConnectedDesc": "Configura tus credenciales de API de Meta a continuación para conectar tu cuenta de WhatsApp Business.",
-      "registered": "Registrado — Meta enviará eventos a wacrm",
+      "registered": "Registrado — Meta enviará eventos a RimAI",
       "notRegistered": "No registrado — Meta no enviará eventos",
       "verifyWithMeta": "Verificar con Meta",
       "subscribedSince": "Suscrito desde {date}. Haz clic en Verificar con Meta si los eventos dejan de llegar.",
@@ -1461,7 +1461,7 @@
       "twoStepPin": "PIN de verificación en dos pasos",
       "optional": "(opcional)",
       "pinPlaceholder": "PIN de 6 dígitos del Administrador de WhatsApp de Meta",
-      "pinHint": "Solo es necesario para recibir mensajes entrantes de un número en producción. Establécelo en el Administrador comercial de Meta → Cuentas de WhatsApp → Números de teléfono → Verificación en dos pasos, y pégalo aquí para que wacrm pueda suscribir el número — de lo contrario, Meta enrutará los eventos entrantes a la última aplicación que lo reclamó. Los números de prueba de Meta no tienen PIN y están pre-registrados — déjalo en blanco para ellos. Dejarlo en blanco también mantiene intacto un registro existente.",
+      "pinHint": "Solo es necesario para recibir mensajes entrantes de un número en producción. Establécelo en el Administrador comercial de Meta → Cuentas de WhatsApp → Números de teléfono → Verificación en dos pasos, y pégalo aquí para que RimAI pueda suscribir el número — de lo contrario, Meta enrutará los eventos entrantes a la última aplicación que lo reclamó. Los números de prueba de Meta no tienen PIN y están pre-registrados — déjalo en blanco para ellos. Dejarlo en blanco también mantiene intacto un registro existente.",
       "webhookTitle": "Configuración de Webhook",
       "webhookDesc": "Usa esta URL como la URL de devolución (callback) de tu webhook en el Panel de Aplicaciones de Meta.",
       "webhookUrl": "URL de devolución de llamada (Callback) de Webhook",
@@ -1628,7 +1628,7 @@
     },
     "aiConfig": {
       "title": "Configuración del agente",
-      "description": "Trae tu propia clave de OpenAI o Anthropic. wacrm llama al proveedor directamente con tu clave — sin tarifas de IA por puesto, y tus datos siguen siendo tuyos. Esto impulsa las respuestas redactadas por IA en la bandeja de entrada, el bot de respuesta automática y el Playground.",
+      "description": "Trae tu propia clave de OpenAI o Anthropic. RimAI llama al proveedor directamente con tu clave — sin tarifas de IA por puesto, y tus datos siguen siendo tuyos. Esto impulsa las respuestas redactadas por IA en la bandeja de entrada, el bot de respuesta automática y el Playground.",
       "adminOnlyConfig": "Solo los administradores y propietarios pueden cambiar la configuración de IA.",
       "loadFailed": "Error al cargar la configuración de IA",
       "providerAndKey": "Proveedor y clave",
